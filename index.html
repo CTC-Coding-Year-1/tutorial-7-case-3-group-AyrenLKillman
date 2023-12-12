@@ -75,6 +75,39 @@
             <!--text box for you to type in AYREN-->
             <textarea name="sampleText" id="sampleBox" wrap="hard" placeholder="Enter sample text and press the Tab key" autofocus></textarea>
          </div>
+         <p>Select the CSS style values from the form below and preview the effect on the sample text in the preview box.</p>
+         <!--font selcetor stuff CHRISTAIN-->
+         <fieldset>
+            <legend>Fonts</legend>
+         <div>
+            <!--Ayren, Christian Font options-->
+            <label for="fontert">Font Family</label>
+            <select name="fonts" id="fontert">
+               <option value="default"selected>default</option>
+               <option value="serif">serif</option>
+               <option value="sans-serif">sans-serif</option>
+               <option value="monospace">monospace</option>
+               <option value="cursive">cursive</option>
+               <option value="fantasy">fantasy</option>
+               <option value="Arial">Arial</option>
+               <option value="BookAntiqua">Book Antiqua</option>
+               <option value="CourierNew">Courier New</option>
+               <option value="Geneva">Geneva</option>
+               <option value="Helvetica">Helvetica</option>
+               <option value="Impact">Impact</option>
+               <option value="Palatino">Palatino</option>
+               <option value="Tahoma">Tahoma</option>
+               <option value="TimesNewRoman">Times New Roman</option>
+            </select>
+
+            <lable for="fontStyle">Font Style</lable>
+            <select name="fStyle" id="fontStyle">
+               <option value="normal">Normal</option>
+               <option value="italic">Italic</option>
+               <option value="oblique">Oblique</option>
+            </select>
+         </div>
+         </fieldset>
          </form>
 
          <h2>Rendered Text</h2>
