@@ -44,7 +44,7 @@ div.slider{
 }
 
 
-/* Control Styles */
+/* Control Styles DRAKE*/
 label {
    clear: left;
    float: left;
@@ -84,10 +84,22 @@ textarea {
    margin-bottom: 15px;
 }
 
-/* Placeholder Styles */
+/* Placeholder Styles AYREN*/
+textarea:-webkit-input-placeholder{
+   background-color: rgb(255,255,191);
+   color: rgb(255,151,151);
+   font-size: 1.5em;
+}
 
-
-
-
+textarea:-ms-input-placeholder{
+   background-color: rgb(255,255,191);
+   color: rgb(255,151,151);
+   font-size: 1.5em;
+}
+textarea:-moz-input-placeholder{
+   background-color: rgb(255,255,191);
+   color: rgb(255,151,151);
+   font-size: 1.5em;
+}
 
    
