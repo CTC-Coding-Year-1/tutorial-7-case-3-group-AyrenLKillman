@@ -65,7 +65,6 @@ input, select{
 input [type="range"] {
    width: 60%;
 }
-
 select {
    display: block;
    float: left;
